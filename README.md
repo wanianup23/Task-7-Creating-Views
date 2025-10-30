@@ -5,8 +5,8 @@ A View is a virtual table that shows data from one or more tables using a SELECT
 It does not store data itself — it just stores the query definition.
 Whenever you query the view, it runs the stored SQL and displays the result.
 
-Type	Description
-Simple View----------	--Based on a single table, no functions or groupings
-Complex View---------	--Based on multiple tables, joins, or aggregate functions
-Materialized View------	Physically stores data for faster performance
-Force View	------------Created even if base tables do not exist
+    Type	                              Description
+1) Simple View----------	--Based on a single table, no functions or groupings
+2) Complex View---------	--Based on multiple tables, joins, or aggregate functions
+3) Materialized View------	Physically stores data for faster performance
+4) Force View	------------Created even if base tables do not exist
